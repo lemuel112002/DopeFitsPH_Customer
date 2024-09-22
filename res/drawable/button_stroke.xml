@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Stroke definition -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/DpRed" />
+
+    <!-- Background color (optional) -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Corner radius to make the corners rounded (optional) -->
+    <corners android:radius="50dp" />
+
+</shape>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="40dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/SUpBTLogIn"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/poppins"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:text="Log In Here"
+        android:textColor="#035BF4"
+        app:iconPadding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTSignUp"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <EditText
+        android:id="@+id/SUpName"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <EditText
+        android:id="@+id/SUpEmail"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <EditText
+        android:id="@+id/SUpPassword"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SUpEmail"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/BTSignUp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#BB1E2E"
+        android:fontFamily="@font/poppins"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SUpPassword"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <EditText
+        android:id="@+id/SupAdd"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Address"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/SUpEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
